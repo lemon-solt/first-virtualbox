@@ -1,0 +1,39 @@
+{
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.mouseWheelZoom": true,
+  "workbench.iconTheme": "vscode-icons",
+  "window.zoomLevel": 1,
+  "jupyter.askForKernelRestart": false,
+  "javascript.validate.enable": false,
+  "editor.wordWrapColumn": 150,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.autofetch": true,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "git.confirmSync": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "audioCues.terminalQuickFix": "off",
+  "audioCues.taskCompleted": "off",
+  "audioCues.diffLineDeleted": "off",
+  "audioCues.diffLineInserted": "off",
+  "audioCues.diffLineModified": "off",
+  "audioCues.lineHasBreakpoint": "off",
+  "audioCues.lineHasError": "off",
+  "audioCues.lineHasFoldedArea": "off",
+  "audioCues.lineHasInlineSuggestion": "off",
+  "audioCues.noInlayHints": "off",
+  "audioCues.notebookCellCompleted": "off",
+  "audioCues.notebookCellFailed": "off",
+  "audioCues.onDebugBreak": "off",
+  "audioCues.taskFailed": "off",
+  "go.formatTool": "gofmt",
+  "remote.SSH.remotePlatform": {
+    "default": "linux"
+  }
+}
