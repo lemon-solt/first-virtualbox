@@ -8,6 +8,7 @@
   "window.zoomLevel": 1,
   "jupyter.askForKernelRestart": false,
   "javascript.validate.enable": false,
+  "explorer.compactFolders": false,
   "editor.wordWrapColumn": 150,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "explorer.confirmDelete": false,
