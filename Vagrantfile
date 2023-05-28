@@ -4,9 +4,8 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", path: "./init_shell/01_start.sh", run: "always"
 
   config.vm.box = "ubuntu/focal64"
+  config.vm.box_version = "20230506.0.0"
   config.vm.network "private_network", ip: "192.168.33.10"
-  config.vm.hostname = "i"
-  config.vm.define = "unlimited_develop_local"
   config.vm.provider "virtualbox" do |vb|
       # vb.cpus = "4"
       # vb.memory = "4096"
