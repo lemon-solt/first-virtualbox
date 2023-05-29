@@ -1,23 +1,9 @@
-echo "apt update実行....."
-apt-get update
-echo "apt update終了....."
+echo "step1: nodeインストール...."
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y nodejs
 
-echo "nodejs npm install実行....."
-apt install -y nodejs npm
-echo "nodejs npm install実行....."
-
-echo "node version 指定"
-npm install n -g
-n lts
-echo "node version 指定"
-
-echo "古いバージョンパージ"
-apt purge -y nodejs npm
-apt autoremove -y
-echo "古いバージョンパージ終了"
-
-echo "node -v"
+# インストールしたバージョンの確認
 node -v
-
-echo "npm -v"
 npm -v
+
+echo "step1: end..."
