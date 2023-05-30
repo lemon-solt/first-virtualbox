@@ -7,7 +7,7 @@ Vagrant.configure("2") do |config|
   config.vm.box = "bento/ubuntu-20.04"
   config.vm.box_version = "202303.13.0"
   config.vm.provider "virtualbox" do |vb|
-    vb.customize ["modifyvm", :id, "--cableconnected1", "off"]
+    vb.customize ["modifyvm", :id, "--cableconnected1", "on"]
     vb.memory = "2048"
     vb.cpus = 1
     # vb.gui = true
